@@ -18,19 +18,11 @@ int main()
     cout << "z: ";
     cin >> z;
 
-    // i = x
-    // j = y
-    // k = z
-
-    for (int i = 0; i < 3; ++i)
-    {
-        for (int j = 0; j < 3; ++j)
-        {
-            for (int k = 0; k < 3; ++k)
-            {
-                cout << i << j << k << endl;
-            }
-        }
-    }
+    cout << x << y << z << endl;
+    cout << x << z << y << endl;
+    cout << y << x << z << endl;
+    cout << y << z << x << endl;
+    cout << z << y << x << endl;
+    cout << z << x << y << endl;
     return 0;
 }
