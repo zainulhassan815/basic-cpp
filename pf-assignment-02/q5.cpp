@@ -10,7 +10,7 @@ int main()
 {
     char ch;
     int code;
-    cout << "Enter character: ";
+    cout << "Enter a character: ";
     cin >> ch;
     code = (char)ch;
 
@@ -18,10 +18,7 @@ int main()
         cout << ch << " is capital letter.";
     else if (code >= 97 && code <= 122)
         cout << ch << " is small letter.";
-    else if (code >= 48 && code <= 57)
-        cout << ch << " is a digit.";
-    else
-        cout << ch << " is a special symbol.";
 
+    cout << endl;
     return 0;
 }
