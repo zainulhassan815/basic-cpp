@@ -1,6 +1,6 @@
 /*
 Write a C++ program to find sum of all prime numbers between 1 to n. For example, if user enters
-n = 10 then output of the program will be 2+3+5+7 = 14.
+n = 10 then output of the program will be 2+3+5+7 = 17.
 */
 
 #include <iostream>
